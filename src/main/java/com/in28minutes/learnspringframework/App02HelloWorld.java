@@ -1,5 +1,7 @@
 package com.in28minutes.learnspringframework;
 
+import java.util.Arrays;
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App02HelloWorld {
@@ -20,12 +22,18 @@ public class App02HelloWorld {
 
         System.out.println(context.getBean("Edytek"));
         System.out.println(context.getBean("PersonFromTheBean"));
-        System.out.println(context.getBean("PersonFromTheParams", "Jarek", 65, context.getBean("warsawAddress")));
+        // System.out.println(context.getBean("PersonFromTheParams", "Jarek", 65,
+        // context.getBean("warsawAddress")));
 
         System.out.println("--------------------------------------------------------");
         System.out.println(context.getBean(Address.class));
 
         // 3: Get the beans from the Spring Context
+
+        // System.out.println(context.getBeanDefinitionNames().toString());
+        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+        ;
+        // System.out.println(context.getDisplayName());
 
         // 4: Use the beans
 

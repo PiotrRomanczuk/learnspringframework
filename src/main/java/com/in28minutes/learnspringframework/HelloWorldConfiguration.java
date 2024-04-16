@@ -32,18 +32,18 @@ public class HelloWorldConfiguration {
         return new Person(name(), age(), warsawAddress());
     }
 
-    @Bean
-    public Person PersonFromTheParams(String name, int age, Address address) {
-        name = this.name();
-        age = this.age();
-        address = this.address();
-        return new Person(name, age, address);
-    }
+    // @Bean
+    // public Person PersonFromTheParams(String name, int age, Address address) {
+    // name = this.name();
+    // age = this.age();
+    // address = this.address();
+    // return new Person(name, age, address);
+    // }
 
-    private Address address() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'address'");
-    }
+    // private Address address() {
+    // // TODO Auto-generated method stub
+    // throw new UnsupportedOperationException("Unimplemented method 'address'");
+    // }
 
     @Bean
     public Address warsawAddress() {
