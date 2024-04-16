@@ -11,9 +11,10 @@ public class AppGamingBasic {
 
         // var marioGame = new MarioGame();
         // var superContraGame = new SuperContraGame();
-        var pacmanGame = new PacmanGame();
 
-        var gameRunner = new GameRunner(pacmanGame);
+        var game = new PacmanGame();
+
+        var gameRunner = new GameRunner(game);
 
         gameRunner.run();
 

@@ -3,7 +3,7 @@ package com.in28minutes.learnspringframework.game;
 public class GameRunner {
     // ibe.pl
 
-    private GamingConsole game;
+    public GamingConsole game;
 
     public GameRunner(GamingConsole game) {
         this.game = game;
