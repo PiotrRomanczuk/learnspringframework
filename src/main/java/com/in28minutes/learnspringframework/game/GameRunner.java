@@ -3,9 +3,9 @@ package com.in28minutes.learnspringframework.game;
 public class GameRunner {
     // ibe.pl
 
-    public GamingConsole game;
+    public GamingConsoleInterface game;
 
-    public GameRunner(GamingConsole game) {
+    public GameRunner(GamingConsoleInterface game) {
         this.game = game;
     }
 

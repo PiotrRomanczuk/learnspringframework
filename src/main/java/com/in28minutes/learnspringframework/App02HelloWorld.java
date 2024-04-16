@@ -16,6 +16,14 @@ public class App02HelloWorld {
 
         System.out.println(context.getBean("name"));
         System.out.println(context.getBean("age"));
+        System.out.println("--------------------------------------------------------");
+
+        System.out.println(context.getBean("Edytek"));
+        System.out.println(context.getBean("PersonFromTheBean"));
+        System.out.println(context.getBean("PersonFromTheParams", "Jarek", 65, context.getBean("warsawAddress")));
+
+        System.out.println("--------------------------------------------------------");
+        System.out.println(context.getBean(Address.class));
 
         // 3: Get the beans from the Spring Context
 

@@ -1,6 +1,6 @@
 package com.in28minutes.learnspringframework.game;
 
-public class PacmanGame implements GamingConsole {
+public class PacmanGame implements GamingConsoleInterface {
 
     public void up() {
         System.out.println("Pacman-up!");
