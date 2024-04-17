@@ -1,7 +1,7 @@
 
 package com.in28minutes.learnspringframework.game;
 
-interface GamingConsoleInterface {
+interface GamingConsole {
 
     void up();
 
