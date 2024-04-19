@@ -41,7 +41,7 @@ public class HelloWorldConfiguration {
     // }
 
     // private Address address() {
-    // // TODO Auto-generated method stub
+
     // throw new UnsupportedOperationException("Unimplemented method 'address'");
     // }
 
